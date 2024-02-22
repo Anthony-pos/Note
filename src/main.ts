@@ -4,6 +4,7 @@ import router from './router'
 //引入element-plus样式
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
+import './styles/element.css'
 //引入element-plus icon图标组件库
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 //引入主样式

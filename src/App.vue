@@ -2,7 +2,7 @@
   <!-- 视频背景 -->
   <video autoplay muted loop id="video-bg">
     <source
-      src="https://openaicomproductionae4b.blob.core.windows.net/production-twill-01/c74791d0-75d2-48e6-acae-96d13bc97c56/paper-planes.mp4"
+      src="@/assets/paper-planes.mp4"
       type="video/mp4">
   </video>
   <HeadLogo />

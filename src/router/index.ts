@@ -1,10 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Main from '@/components/HomePageComponents/MainComponent.vue'
-import HTML from '@/components/DocComponents/HtmlComponent.vue'
-import CSS from '@/components/DocComponents/CssComponent.vue'
-import JavaScript from '@/components/DocComponents/JavaScriptComponent.vue'
-import jQuery from '@/components/DocComponents/JQueryComponent.vue'
-import Ajax from '@/components/DocComponents/AjaxComponent.vue'
+import Linux from '@/components/DocComponents/LinuxComponent.vue'
 import Promise from '@/components/DocComponents/PromiseComponent.vue'
 import Git from '@/components/DocComponents/GitCompoonent.vue'
 import Node from '@/components/DocComponents/NodeComponent.vue'
@@ -17,11 +13,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     { path: '/Main', component: Main },
-    { path: '/HTML', component: HTML },
-    { path: '/CSS', component: CSS },
-    { path: '/JavaScript', component: JavaScript },
-    { path: '/jQuery', component: jQuery },
-    { path: '/Ajax', component: Ajax },
+    { path: '/Linux', component: Linux },
     { path: '/Promise', component: Promise },
     { path: '/Git', component: Git },
     { path: '/Node', component: Node },
